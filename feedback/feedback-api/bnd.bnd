@@ -1,0 +1,13 @@
+Bundle-Name: feedback-api
+Bundle-SymbolicName: feedback.api
+Bundle-Version: 1.0.0
+Export-Package: \
+	it.smc.liferay.feedback.exception,\
+	it.smc.liferay.feedback.model,\
+	it.smc.liferay.feedback.service,\
+	it.smc.liferay.feedback.persistence,\
+	it.smc.liferay.feedback.permission
+Import-Package:
+	com.liferay.portal.kernel.model,\
+	com.liferay.util.portlet,\
+-includeresource: META-INF/service.xml=../feedback-service/service.xml
