@@ -1,0 +1,10 @@
+Bundle-Name: feedback-web
+Bundle-SymbolicName: it.smc.liferay.feedback.manager.portlet
+Bundle-Version: 1.0.0
+Export-Package: it.smc.liferay.feedback.manager.constants
+Import-Package:
+	it.smc.liferay.feedback.enums,\
+    com.liferay.portal.service;version="7.0.0",\
+    com.liferay.portal.kernel;version='2.1.0',\
+    org.osgi.framework;version="[1.7,2)",\
+    *
